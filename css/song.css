@@ -1,0 +1,58 @@
+
+
+
+.playing {
+    width: 250px;
+}
+
+.curPly {
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.playMen {
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+
+.playMen::-webkit-scrollbar {
+  display: none;
+}
+
+.poBar { 
+    filter: invert(21%) sepia(68%) saturate(6888%) hue-rotate(2deg)
+    brightness(104%) contrast(98%);
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.playOp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 80px;
+  }
+   
+  .iconPlay {
+    filter: invert(41%) sepia(68%) saturate(6888%) hue-rotate(2deg)
+      brightness(104%) contrast(98%);
+  }
+  
+  .songName {
+    color: rgb(210, 56, 5);
+    font-family: "Bebas Neue", cursive;
+
+    margin-bottom: 10px;
+  }
+  
+  .contentContainerSong{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }

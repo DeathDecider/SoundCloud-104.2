@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background-color: rgba(24, 21, 24, 255);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(32, 29, 32, 255);
+  color: rgb(252, 64, 4);
+  padding: 10px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* box-shadow: 0px 0px 7px; */
+}
+
+.secretLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contentContainer {
+  margin-bottom: 65px;
+}
+
+.disTxt {
+  color: rgb(252, 64, 4);
+  padding: 10px 12px;
+  font-size: 2rem;
+  /* font-family: 'Creepster', cursive; */
+  font-family: "Bebas Neue", cursive;
+}
+
+.centTxt {
+  color: rgb(252, 64, 4);
+  padding: 15px 12px;
+  font-size: 2rem;
+  /* font-family: 'Creepster', cursive; */
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.Recommended {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: scroll;
+  padding: 0 1rem;
+}
+
+.Recommended::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  word-wrap: break-word;
+}
+
+.display p {
+  color: rgb(210, 56, 5);
+  margin: 0;
+  padding-top: 2px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.cover {
+  width: 120px;
+}
+
+.smallCover {
+  width: 60px;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  color: rgb(210, 56, 5);
+  background-color: rgb(32, 29, 32, 255);
+  height: 60px;
+  width: 335px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.posNum {
+  font-size: 20px;
+  position: absolute;
+  right: 300px;
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+.chartRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  scroll-snap-align: center;
+}
+
+.topChart {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  padding-right: 45px;
+  scroll-snap-type: x mandatory;
+}
+
+.topChart::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(32, 29, 32, 255);
+  color: rgb(252, 64, 4);
+  padding: 10px 12px;
+  bottom: 0;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  width: 80px;
+}
+
+@keyframes gay {
+  0% {
+    filter: invert(0.5) sepia(1) hue-rotate(0deg) saturate(5)
+      drop-shadow(0px 0px 5px white);
+    transform: rotate(0deg);
+  }
+  100% {
+    filter: invert(0.5) sepia(1) hue-rotate(360deg) saturate(5)
+      drop-shadow(0px 0px 5px white);
+    transform: rotate(360deg);
+  }
+}
+
+.icon {
+  filter: invert(41%) sepia(68%) saturate(6888%) hue-rotate(2deg)
+    brightness(104%) contrast(98%);
+}
+
+.icon:hover {
+  animation: gay 1s linear infinite;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+
+.libDir {
+  color: rgb(252, 64, 4);
+  padding: 15px 12px;
+  font-size: 2rem;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    width: 300px;
+    background-color: rgb(69, 69, 69);
+    color: rgb(210, 56, 5);
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    padding: 15px 15px;
+    background-color: rgb(252, 64, 4);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] img {
+    height: 15px;
+    width: 16px;
+    max-height: 48px;
+  }
+  
+  button[type="submit"]:active {
+    background-color: rgb(210, 56, 5);
+  }
+
+  .libSto {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    gap: 1rem;
+    color: rgb(210, 56, 5);
+    background-color: rgb(32, 29, 32, 255);
+    height: 60px;
+    width: 370px;
+    align-items: center;
+    font-family: "Bebas Neue", cursive;
+  }
+
+
+  .libList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 80px;
+  }
+
+  .smallCoverAdd {
+    width: 60px;    
+    filter: invert(0.3)
+  }
